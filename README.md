@@ -22,7 +22,7 @@ Then look for the file :
 - > mysql -u <user_name> -p accounts < accountsdb.sql
 
 
-Steps for Installing :
+## Steps for Installing :
 
 git clone https://github.com/devops0014/docker-webapp.git
 
