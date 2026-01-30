@@ -22,3 +22,22 @@ Then look for the file :
 - > mysql -u <user_name> -p accounts < accountsdb.sql
 
 
+Steps for Installing :
+
+git clone https://github.com/devops0014/docker-webapp.git
+
+cd docker-webapp/
+
+git checkout master
+
+yum install java-1.8.0-openjdk -y
+
+yum install maven -y
+
+mvn -v
+
+mvn clean package -U
+
+mvn dependency:purge-local-repository
+
+
